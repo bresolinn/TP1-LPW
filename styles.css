@@ -74,3 +74,94 @@ body {
 .nav-bar a.active::after {
     transform: scaleX(1);
 }
+.carousel-container {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    height: 530px;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 50px;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: #717171;
+}
+
+.overlay-image {
+    position: relative;
+    margin-top: -19px;
+    height: 50px;
+    max-height: 100%;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.overlay-image img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
