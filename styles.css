@@ -74,3 +74,237 @@ body {
 .nav-bar a.active::after {
     transform: scaleX(1);
 }
+
+.carousel-container {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    height: 530px;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 50px;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: #717171;
+}
+
+.overlay-image {
+    position: relative;
+    margin-top: -19px;
+    height: 50px;
+    max-height: 100%;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.overlay-image img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products-section {
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    color: #547353;
+}
+
+.products-section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 110px;
+}
+
+.product-item {
+    position: relative;
+    width: 370px;
+    height: 370px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    text-align: center;
+}
+
+.product-button {
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    background: transparent;
+    text-align: center;
+    text-decoration: none;
+}
+
+.about-section {
+    background-color: #4ec56a;
+    color: #1d2f17;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+.about-image-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.about-image {
+    width: auto;
+    height: 460px;
+    position: relative;
+    margin-right: 40px;
+    transform: translateY(10px);
+    border-radius: 20px;
+    margin-left: 60px;
+}
+
+
+.about-text {
+    max-width: 800px;
+}
+
+.about-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-logo {
+    width: 60px;
+    display: block;
+    margin-right: 20px;
+}
+
+.about-text h2 {
+    font-size: 35px;
+    margin: 0;
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+}
+
+.about-text p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+}
+
+.about-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #1d2f17;
+    border-radius: 20px;
+    color: #1d2f17;
+    background: transparent;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+}
