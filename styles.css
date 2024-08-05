@@ -74,7 +74,6 @@ body {
 .nav-bar a.active::after {
     transform: scaleX(1);
 }
-
 .carousel-container {
     position: relative;
     width: 100vw;
