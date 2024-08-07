@@ -307,3 +307,57 @@ body {
     font-family: "Zilla Slab", serif;
     font-weight: 700;
 }
+.ads-section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 90px;
+}
+
+.ad-box {
+    border: 2px solid #222222;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    width: 44%;
+    height: 190px;
+}
+
+.ad-image {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.ad-text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Zilla Slab", serif;
+    color: #222222;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.ad-text h3 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    font-family: "Zilla Slab", serif;
+}
+
+.ad-button {
+    display: inline-block;
+    padding: 10px 5px;
+    border: 2px solid #222222;
+    border-radius: 20px;
+    color: #222222;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 90px;
+}
