@@ -361,3 +361,39 @@ body {
     margin-bottom: 10px;
     width: 90px;
 }
+
+
+.instagram-section {
+    text-align: center;
+    margin: 40px 0;
+    margin-top: 100px;
+}
+
+.instagram-section > p {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+.instagram-button {
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid #93c73f;
+    border-radius: 20px;
+    padding: 10px 10px;
+    color: #93c73f;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 700;
+    font-family: "Zilla Slab", serif;
+    font-size: 20px;
+}
+
+.instagram-button img {
+    width: auto;
+    height: 20px;
+    margin-right: 10px;
+}
