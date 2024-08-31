@@ -44,6 +44,10 @@ body {
     position: relative;
 }
 
+.nav-bar > #atual {
+    color: red;
+}
+
 .nav-bar a {
     color: #000000;
     text-decoration: none;
@@ -413,6 +417,7 @@ background-color: #F4CAA0;
 padding: 40px 20px;
 font-family: "Zilla Slab", serif;
 font-weight: 700;
+margin-top: 150px;
 }
 
 .logo-footer img {
