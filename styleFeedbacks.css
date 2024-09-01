@@ -157,14 +157,49 @@ h2{
     border: 5px solid #517050;
 }
 
-.overlay-image2 {
-    position: absolute;
-    margin-top: -74px;
-    margin-left: 800px;
-    height: 80px;
-    max-height: 100%;
-    overflow: hidden;
-    z-index: 5;
+.feedback {
+    margin-top: 0px;
+}
+
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F4CAA0;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Zilla Slab", serif;
+}
+.feedback-form input, .feedback-form textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.feedback-form textarea {
+    resize:none;
+    min-height: 100px;
+}
+.feedback-form button {
+    background-color: #5C4634;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Zilla Slab", serif;
+}
+.feedback-form button:hover {
+    background-color: #4a3b2a;
 }
 
 .custom-footer {

@@ -402,15 +402,6 @@ body {
     margin-right: 10px;
 }
 
-.overlay-image2 {
-    position: absolute;
-    margin-top: -74px;
-    margin-left: 800px;
-    height: 80px;
-    max-height: 100%;
-    overflow: hidden;
-    z-index: 5;
-}
 
 .custom-footer {
 background-color: #F4CAA0;
